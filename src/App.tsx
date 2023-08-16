@@ -24,9 +24,9 @@ function App() {
     isTopOfPage= {isTopOfPage}
     selectedPage = {selectedPage}
 setSelectedPage = {setSelectedPage}/>
-<Home setSelectedPage = {setSelectedPage} />
- <About setSelectedPage = {setSelectedPage} /> 
- <Footer setSelectedPage = {setSelectedPage} /> 
+<Home />
+ <About /> 
+ <Footer /> 
   </div>
   );
 }

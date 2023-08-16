@@ -49,7 +49,7 @@ setSelectedPage = {setSelectedPage}/>
 </div>
  </div> ) : (
   <div>
-    <button className={`rounded-full bg-blue-2 p-2`} onClick={() => setIsMenuToggled(!isMenuToggled)}>
+    <button title= 'button' className={`rounded-full bg-blue-2 p-2`} onClick={() => setIsMenuToggled(!isMenuToggled)}>
       <Bars3Icon className={`h-6 w-6 text-white`}/>
     </button>
   </div>

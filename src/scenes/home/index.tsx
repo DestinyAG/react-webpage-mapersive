@@ -1,10 +1,8 @@
-import useMediaQuery from "@/hooks/useMediaQuery";
-import { SelectedPage } from "@/shared/types";
+
 import maintext from "@/assets/maintext.png";
 import searchbar from "@/assets/searchbar.png";
 import specs from "@/assets/specs.png";
 import bmw from "@/assets/bmw.png";
-import rectangle from "@/assets/rectangle.png";
 import line from "@/assets/line.png";
 import { motion } from "framer-motion";
 
@@ -12,12 +10,10 @@ import { motion } from "framer-motion";
 
 
 
-type Props = {
-    setSelectedPage: (value: SelectedPage) => void;
-};
 
-function Home({setSelectedPage}: Props) {
-    const isAboveMediumScreens = useMediaQuery("(min-width:1060px)");
+
+function Home() {
+    
   return (
     <section 
     id="home"
