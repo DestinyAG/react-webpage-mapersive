@@ -1,14 +1,12 @@
-import { SelectedPage } from "@/shared/types";
+
 import group14 from "@/assets/group14.png";
 import agreebutton from "@/assets/agreebutton.png";
 import infobutton from "@/assets/infobutton.png";
 
 
-type Props = {
-    setSelectedPage: (value: SelectedPage) => void;
-}
 
-const About = (setSelectedPage: Props) => {
+
+const About = () => {
   return (
     <section 
     id="about"

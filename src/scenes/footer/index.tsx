@@ -1,15 +1,13 @@
-import { SelectedPage } from "@/shared/types";
+
 import logo2 from "@/assets/logo2.png";
 import buyvehicle from "@/assets/buyvehicle.png";
 import purchase from "@/assets/purchase.png";
 import english from "@/assets/english.png";
 import socials from "@/assets/socials.png";
 import footline from "@/assets/footline.png";
-type Props = {
-    setSelectedPage: (value: SelectedPage) => void;
-}
 
-const Footer = ({setSelectedPage}: Props) => {
+
+const Footer = () => {
   return (
     <section 
     id="footer"
