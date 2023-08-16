@@ -26,3 +26,8 @@ If you are developing a production application, we recommend updating the config
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
 # mapersive-mobiling
+How to run app:
+clone the repository
+after repository is cloned, open terminal and navigate to project directory
+install dependencies(npm install)
+start the development server using the command: npm run dev
